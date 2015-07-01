@@ -18,9 +18,7 @@ namespace Lesson1_Task1
         /// </summary>
         public TravelExpenses()
         {
-            initials="Marat Kazey"; 
-            fare=120000; 
-            days=31; 
+
         }
 
         /// <summary>
@@ -37,7 +35,6 @@ namespace Lesson1_Task1
         }
 
 
-        //Геттеры и сеттеры
 
         public string Initials
         {
