@@ -11,13 +11,14 @@ namespace Lesson1_Task1
         static void Main(string[] args)
         {
             //Объявление объектов класса
-            TravelExpenses[] mission = new TravelExpenses[5];
-            mission[0] = new TravelExpenses("Ivar Maksutov", 40000, 18);
-            mission[1] = new TravelExpenses("Maxim Valov", 38000, 16);
-            mission[2] = null;
-            mission[3] = new TravelExpenses("Zahar Baturin", 51000, 25);
-            mission[4] = new TravelExpenses();
-
+            TravelExpenses[] mission = new TravelExpenses[]
+            {
+                new TravelExpenses("Ivar Maksutov", 40000, 18),
+                new TravelExpenses("Maxim Valov", 38000, 16),
+                null,
+                new TravelExpenses("Zahar Baturin", 51000, 25),
+                new TravelExpenses()
+            };
             //Вывод информации об объектах методом Show()
             for (int i = 0; i < mission.Length; i++)
             {
